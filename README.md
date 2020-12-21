@@ -1,3 +1,6 @@
+## An updated version of this project resides at https://github.com/rvrsh3ll/NoMSBuild
+
+
 # MSBuildAPICaller
  MSBuild Without MSBuild.exe
 
